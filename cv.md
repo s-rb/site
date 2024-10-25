@@ -1,18 +1,20 @@
 ---
 title: CV
-layout: page
+layout: cv
 ---
-<h1>Roman Surkov</h1>
+<div id="main">
+    <div id="content">
+<h1 class="name">Roman Surkov</h1>
 
-<div class="container has-text-centered column is-full is-size-3">
+<div class="container has-text-centered column is-full is-size-3 contacts">
 {% if site.linkedin_username %}
-<a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+<a href="http://linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-linkedin"></i></a>
 {% endif %}
 {% if site.github_username %}
-<a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
+<a href="https://github.com/{{site.github_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-github"></i></a>
 {% endif %}
 {% if site.telegram_username %}
-<a href="https://t.me/{{site.telegram_username}}" target="_blank" class="has-text-black"><i class="fab fa-telegram"></i></a>
+<a href="https://t.me/{{site.telegram_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-telegram"></i></a>
 {% endif %}
 {% if site.leetcode_username %}
 <a href="https://leetcode.com/u/{{site.leetcode_username}}" target="_blank" class="has-text-black"><i class="fa fa-code"></i></a>
@@ -20,6 +22,8 @@ layout: page
 {% if site.devto_username %}
 <a href="https://dev.to/{{site.devto_username}}" target="_blank" class="has-text-black"><i class="fab fa-dev"></i></a>
 {% endif %}
+<a href="mailto:{{site.email}}" target="_blank" class="has-text-black cv-contact mail"><i class="fas fa-envelope"></i></a>
+<a href="{{site.email}}" target="_blank" class="has-text-black cv-contact mail printable"><i class="fas fa-envelope"></i></a>
 </div>
 
 <h1>{{site.data.work_experience.job-title}}</h1>
@@ -153,3 +157,11 @@ Professional experience
     <span>{{item.date}}</span>
 </div>
 {% endfor %}
+</div>
+</div>
+
+<div class="cv-download">
+    <a onclick="window.print()" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">
+<i class="fas fa-file-download"></i>&nbsp;&nbsp;CV
+</a>
+</div>

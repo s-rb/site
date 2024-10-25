@@ -74,7 +74,7 @@ Working timeline
 <h3>
 Github activity
 </h3>
-<div class="calendar">Loading the data just for you.</div>
+<div class="calendar">Loading github data...</div>
 
 
 <script src="{{site.url}}{{site.baseurl}}/assets/js/toggle-timeline.js"></script>

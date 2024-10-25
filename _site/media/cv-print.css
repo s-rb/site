@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+
+body {
+	font: normal normal 400;
+	font-size: 10pt;
+	line-height: 1.35em;
+	/*also written as...  font: normal normal 400 100%/1.5em;*/
+	font-family: Verdana,sans-serif;
+	/*margin-top: 1em;
+	margin-left: 1em;*/
+}
+
+p {
+	position: relative;
+	margin-bottom: 0.2em;
+	margin-right: 0;
+}
+
+code {
+	font: normal normal;
+	font-size: 60%;
+	/*line-height: 1em;*/
+	font-family: Menlo,monospace,sans-serif;
+	color: #ccc;
+}
+
+p code {
+	position: absolute;
+	left: -11%;
+}
+
+/*uncomment to get dashes in the list*/
+/*li:before {
+	content: "-";
+	position: relative;
+	left: -0.25em;
+}*/
+
+li {
+	/*second line indent*/
+	padding-left: 1.25em;
+	text-indent: -1.25em;
+	/*color: #777;*/
+}
+
+li ul {
+	position: relative;
+	left: 0;
+	width: 100%;
+	margin-top: 0.25em;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 600;
+	line-height: 1.125;
+	font-family: Cousine,Verdana,sans-serif;
+	/*width: 65%;*/
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+h1+p { 
+	/*subtitle*/
+	font-style: italic;
+	font-size: 110%;
+}
+
+h2 {
+	text-align: center;
+    font-size: 1.75em;
+    margin-bottom: .57em;
+    margin-top: 0.57em;
+}
+
+
+h3 {
+	font-size: 1em;
+	line-height: 2em; 
+	color: #ccc;
+	position: relative;
+	top: 1.6em;
+	text-align: right;
+	width: 18%;
+}
+
+a {
+	color: inherit;
+	text-decoration:none
+}
+
+a:hover {
+	color:#39f
+}
+
+em {
+	font-style: normal;
+	color: #2d4e5e 
+}
+
+strong {
+	font-weight: bold;
+}
+
+#ghbutton {
+	display: none;
+	visibility: hidden;
+}
+
+footer, nav, hr {
+    display: none;
+}
+
+.title {
+    display: none;
+}
+
+.contacts {
+    width: 90%;
+    margin: auto .5rem;
+    /*padding: 0 .5rem 0 .5rem;*/
+    padding: .5rem;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.cv-description {
+    margin: 0px;
+    padding: 0 0 10px 10px;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4;
+    display: block;
+    max-width: 97%;
+}
+
+.cv-core-competencies {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none !important;
+    padding: 0 1em 0 1em;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+p+.cv-experience-header {
+    padding-top: 5px;
+}
+.cv-experience-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    max-width: 97%;
+    align-self: center;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+.cv-position {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.cv-experience-period {
+    font-size: .6rem;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: right;
+    align-self: center;
+}
+
+.cv-company {
+    font-size: 1rem;
+    padding-top: 5px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.cv-experience-period-diff {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 5px;
+    align-self: center;
+    text-align: right;
+}
+
+.cv-description {
+    margin: 0px !important;
+    padding: 0 0 5px 20px;
+    text-align: justify;
+}
+
+.cv-education-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    max-width: 97%;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.cv-summary {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: justify;
+    max-width: 97%;
+    padding-left: 20px;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.cv-download {
+    display: none;
+}
+
+.contacts a {
+    display: none;
+}
+
+.cv-contact {
+    display: none;
+}
+
+.printable {
+    display: contents !important;
+    text-decoration: none;
+    &:after {
+       content: " "attr(href); /* Показывать URL после текста ссылки */
+       margin-right: 20px;
+    }
+    font: normal normal 400;
+    font-size: 9pt;
+    line-height: 1.35em;
+    color: black; /* Цвет текста */
+}
+
+.cv-contact li {
+    display: none;
+}
+.cv-contact svg {
+    max-width: 9pt;
+    max-height: 9pt;
+    margin-left: 40px;
+    padding-left: 60px;
+}
