@@ -2,7 +2,6 @@ $dark-color: #363636;
 
 #tech-stack-card {
     transform: scale(0.925);
-//     --main-color: #4169e1;
     --dark-main-color: #2f4aa3;
     --text-color: #fff;
     font-feature-settings: "ss01", "ss02", "case", "salt";
@@ -11,10 +10,8 @@ $dark-color: #363636;
     line-height: 1.5;
     color: #fff!important;
     box-sizing: border-box;
-//     border: 1.7px solid var(--main-color)!important;
     border: 1.7px solid $dark-color !important;
     border-radius: 5px!important;
-//     box-shadow: 4px 5px 4px 3px var(--main-color)!important;
     display: table!important;
     margin: 15px!important;
     opacity: .93!important;

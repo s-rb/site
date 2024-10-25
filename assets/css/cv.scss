@@ -75,8 +75,8 @@
 
 .cv-download a {
     position: fixed;
-      bottom: 50px;
-      right: 50px;
+      bottom: 10%;
+      right: 10%;
       padding: 10px 20px;
       background-color: #fff !important;
       cursor: pointer;
@@ -87,6 +87,44 @@
      }
 }
 
+.cv-download img {
+       text-rendering: optimizeLegibility;
+       text-size-adjust: 100%;
+       font-family: "Poppins",sans-serif;
+       user-select: none;
+       line-height: 1.5;
+       text-transform: uppercase!important;
+       font-weight: 400!important;
+       text-align: center;
+       white-space: nowrap;
+       cursor: pointer;
+       color: #0a0a0a;
+       box-sizing: inherit;
+       display: inline-block;
+       font-size: inherit;
+       height: 1em;
+       vertical-align: -.125em;
+       overflow: visible;
+}
+
 .mail.printable {
-        display: none;
+    display: none;
+}
+
+.cv-contact svg, .cv-contact img {
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins",sans-serif;
+    text-align: center!important;
+    cursor: pointer;
+    color: #0a0a0a!important;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em !important;
+    vertical-align: -.125em;
+    width: 1em !important;
+    overflow: visible;
 }

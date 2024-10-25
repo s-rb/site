@@ -24,6 +24,9 @@ layout: cv
 {% endif %}
 <a href="mailto:{{site.email}}" target="_blank" class="has-text-black cv-contact mail"><i class="fas fa-envelope"></i></a>
 <a href="{{site.email}}" target="_blank" class="has-text-black cv-contact mail printable"><i class="fas fa-envelope"></i></a>
+<a onclick="window.print()" class="has-text-black cv-contact">
+<img src="assets/images/icons/pdf.svg" alt="pdf">
+</a>
 </div>
 
 <h1>{{site.data.work_experience.job-title}}</h1>
