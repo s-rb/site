@@ -3,9 +3,8 @@ title: About me
 layout: page
 ---
 
-
 <h2>
-{{site.data.work_experience.job-title}}
+Hello everybody, my name is {{site.author-name}}
 </h2>
 
 {% for item in site.data.work_experience.description %}
