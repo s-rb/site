@@ -69,17 +69,18 @@ Working timeline
 </div>
 <div class="container timeline-toggle-button has-text-centered has-background-grey-darker has-text-white">SHOW DETAILS</div>
 
----
-
+{% if site.github_username %}
+<div class="github-stats">
+<hr>
 <h3>
 Github activity
 </h3>
 <div class="calendar">Loading github data...</div>
-
-
+</div>
 <script src="{{site.url}}{{site.baseurl}}/assets/js/toggle-timeline.js"></script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <script>
     const github_username = '{{ site.github_username }}';
     GitHubCalendar(".calendar", github_username, { responsive: true, global_stats: false, cache: 36000 });
 </script>
+{% endif %}
