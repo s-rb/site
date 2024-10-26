@@ -27,7 +27,7 @@ Secondary stack
     {% for item in site.data.tech-stack.secondary %}
     <div class="is-one-third-widescreen is-one-third-fullhd is-two-third-mobile is-three-quarters-touch"
          id="tech-stack-card">
-        <img alt="{{item.title}}" class="tech-stack-image-card image is-marginless row" src="/assets/images/icons/{{ item.icon }}"/>
+        <img alt="{{item.title}}" class="tech-stack-image-card image is-marginless row" src="assets/images/icons/{{ item.icon }}"/>
         <p class="tech-icon-text has-text-weight-medium has-text-grey">{{ item.title }}</p>
     </div>
     {% endfor %}
