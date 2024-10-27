@@ -1,7 +1,7 @@
 ---
 title: 'The optimal Docker image for Spring Boot. Part 3'
 layout: post
-post-image: /assets/images/posts/2024/00009-0.jpeg
+post-image: assets/images/posts/2024/00009-0.jpeg
 description: Jib is a Google tool that simplifies building Docker images without Docker, optimizing image layers and 
   supporting direct registry deployment.
 tags:
