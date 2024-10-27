@@ -1,7 +1,7 @@
 ---
 title: Cool icons for github profile
 layout: post
-post-image: assets/images/posts/2024/00001-2.png
+post-image: /assets/images/posts/2024/00001-2.png
 description: Icons8 is a free resource offering a vast collection of icons in various styles and formats, 
   perfect for enhancing the visual appeal of projects, presentations, and social media profiles
 tags:

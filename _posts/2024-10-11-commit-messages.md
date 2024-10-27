@@ -1,7 +1,7 @@
 ---
 title: 'Commit Message Style in Git'
 layout: post
-post-image: assets/images/posts/2024/00004-1.png
+post-image: /assets/images/posts/2024/00004-1.png
 description: Following best practices for commit messages in Git, such as writing concise and imperative statements 
   while explaining changes, helps maintain a clear and structured change history for better collaboration and 
   project management

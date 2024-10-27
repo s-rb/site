@@ -1,7 +1,7 @@
 ---
 title: '25 Powerful and Free APIs Every Developer Should Know in 2024'
 layout: post
-post-image: assets/images/posts/2024/00005-1.png
+post-image: /assets/images/posts/2024/00005-1.png
 description: Here is a collection of 25 powerful free APIs that developers can leverage in 2024 to simplify 
   app development, offering everything from weather data and news to AI capabilities and geolocation.
 tags:

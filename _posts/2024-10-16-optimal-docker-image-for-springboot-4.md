@@ -1,7 +1,7 @@
 ---
 title: 'The optimal Docker image for Spring Boot. Part 4'
 layout: post
-post-image: assets/images/posts/2024/00010-0.jpeg
+post-image: /assets/images/posts/2024/00010-0.jpeg
 description: The article demonstrates how to write optimized Dockerfiles using multi-stage builds, minimizing the image 
   size by customizing the JDK and organizing dependencies into layers.
 tags:
