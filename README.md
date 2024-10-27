@@ -17,6 +17,10 @@
 
 4. **Trigger Build and Deployment:**
     - Commit any change to your repository to trigger a new build and deployment action.
+   
+5. **Check your website:**
+    - Go to https://{YOU_NAME}.github.io/{YOUR_REPO}/ for example https://s-rb.github.io/personal-website-whatatheme/
+    - That's it! You are ready to use it!
 
 ### TODO:
 - To add project pages on click (like blog posts)
