@@ -6,7 +6,7 @@
 1. **Set up Action Permissions:**
     - Go to your repository's `Settings`, click `Actions` => `General`.
     - In the `Actions permissions` section, select `Allow all actions and reusable workflows`.
-    - Enable the checkbox for `Allow actions created by GitHub` and click `Save`.
+    - Enable the checkbox for `Allow actions created by GitHub` and for `Allow actions by Marketplace verified creators`, then click `Save`.
 
 2. **Configure GitHub Pages:**
     - Go to the `Pages` section and select `GitHub Actions` from the `Source` menu under `Build and Deployment`.
