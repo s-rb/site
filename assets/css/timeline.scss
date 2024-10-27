@@ -140,6 +140,7 @@ $media-breakpoint-xxs: 399px;
   @include media($media-breakpoint-sm) {
           text-align: left !important;
           max-width: 100%;
+          width: 330px;
 
           &::after {
               left: -7px;
@@ -149,7 +150,8 @@ $media-breakpoint-xxs: 399px;
 
   @include media($media-breakpoint-xs) {
         text-align: left !important;
-        max-width: 70%;
+        max-width: 100%;
+        width: 230px;
 
         &::after {
             left: -7px;
