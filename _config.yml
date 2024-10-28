@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://s-rb.github.io/personal-website-whatatheme'
+url: 'https://s-rb.github.io/'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: personal-website-whatatheme
 
 # Title of the Site
 title: Roman Surkoff
