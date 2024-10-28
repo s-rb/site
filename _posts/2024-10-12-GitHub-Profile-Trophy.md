@@ -35,7 +35,7 @@ You can customize the theme, number of columns, and categories:
 
 <code>[![trophy](https://github-profile-trophy.vercel.app/?username=your_username&theme=onedark&row=2&column=3)]</code>
 
-![Github profile trophy](/assets/images/posts/2024/00002-2.png)
+![Github profile trophy](/assets/images/posts/2024/00002-2.jpg)
 
 <b>Advantages</b>
 
