@@ -1,7 +1,8 @@
 ---
 title: 'Jenkins: executing script over ssh in a pipeline'
 layout: post
-post-image: assets/images/posts/2024/00006-1.png
+post-image: assets/images/posts/2024/00006-1.jpg
+post-image-small: assets/images/posts/2024/00006-1-small.jpg
 description: This guide demonstrates executing remote scripts through Jenkins Pipelines using SSH authentication and 
   the sshPublisher plugin, detailing configuration and execution steps.
 tags:

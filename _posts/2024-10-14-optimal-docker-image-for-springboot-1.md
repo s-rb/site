@@ -1,7 +1,8 @@
 ---
 title: 'The optimal Docker image for Spring Boot. Part 1'
 layout: post
-post-image: assets/images/posts/2024/00007-0.png
+post-image: assets/images/posts/2024/00007-0.jpg
+post-image-small: assets/images/posts/2024/00007-0-small.jpg
 description: The article outlines various methods for packaging a Spring Boot application into a Docker container, 
   highlighting best practices and practical implementation steps.
 tags:

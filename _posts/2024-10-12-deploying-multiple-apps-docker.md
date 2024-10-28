@@ -1,7 +1,8 @@
 ---
 title: 'Deploying Multiple Apps on a Single VPS'
 layout: post
-post-image: assets/images/posts/2024/00003-1.png
+post-image: assets/images/posts/2024/00003-1.jpg
+post-image-small: assets/images/posts/2024/00003-1-small.jpg
 description: Docker enables the efficient deployment and management of multiple applications on a single VPS through 
   containerization, simplifying updates and service management with tools like Portainer.
 tags:

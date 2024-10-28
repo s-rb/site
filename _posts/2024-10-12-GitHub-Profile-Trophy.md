@@ -1,7 +1,8 @@
 ---
 title: 'GitHub Profile Trophy: enhance your profile'
 layout: post
-post-image: assets/images/posts/2024/00002-1.png
+post-image: assets/images/posts/2024/00002-1.jpg
+post-image-small: assets/images/posts/2024/00002-1-small.jpeg
 description: GitHub Profile Trophy enhances your GitHub profile with customizable visual trophies that showcase your 
   achievements, making your portfolio more engaging
 tags:

@@ -2,6 +2,7 @@
 title: 'Deploying Keycloak on a VPS Using Docker-compose, Nginx, Certbot, and SSL'
 layout: post
 post-image: assets/images/posts/2024/00012-0.jpeg
+post-image-small: assets/images/posts/2024/00012-0-small.jpeg
 description: This article provides a step-by-step guide for deploying Keycloak on a VPS with Docker-compose, Nginx, 
   Certbot, and SSL for secure access and automated deployment.
 tags:

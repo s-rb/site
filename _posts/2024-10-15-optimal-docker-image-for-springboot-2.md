@@ -2,6 +2,7 @@
 title: 'The optimal Docker image for Spring Boot. Part 2'
 layout: post
 post-image: assets/images/posts/2024/00008-0.jpg
+post-image-small: assets/images/posts/2024/00008-0-small.jpeg
 description: The article covers using the spring-boot-maven-plugin to package Spring Boot applications into optimized 
   Docker images with improved caching and no need for a Dockerfile.
 tags:
