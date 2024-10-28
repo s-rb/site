@@ -25,7 +25,7 @@ layout: compress
               {% if page.post-image contains "http" %}
               <img src="{{ page.post-image }}" alt="{{ post.title }}" id="post-image">
               {% else %}
-              <img src="{{ site.url }}{{ page.post-image }}" alt="{{ post.title }}" id="post-image">
+              <img src="{{ site.url }}{{ site.baseurl }}{{ page.post-image }}" alt="{{ post.title }}" id="post-image">
               {% endif %}
             </figure>
           </div>
