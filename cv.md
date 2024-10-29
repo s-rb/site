@@ -24,8 +24,8 @@ layout: cv
 {% endif %}
 <a href="mailto:{{site.email}}" target="_blank" class="has-text-black cv-contact mail"><i class="fas fa-envelope"></i></a>
 <a href="{{site.email}}" target="_blank" class="has-text-black cv-contact mail printable"><i class="fas fa-envelope"></i></a>
-<a onclick="window.print()" class="has-text-black cv-contact">
-<img src="assets/images/icons/pdf.svg" alt="pdf">
+<a id="cv-link" href="/assets/files/cv.pdf" class="has-text-black cv-contact" onclick="handleCvLinkClick(event)">
+    <img src="assets/images/icons/pdf.svg" alt="pdf">
 </a>
 </div>
 
@@ -164,7 +164,8 @@ Professional experience
 </div>
 
 <div class="cv-download">
-    <a onclick="window.print()" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">
+<a id="cv-link-btn" href="/assets/files/cv.pdf" onclick="handleCvLinkClick(event)" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">
 <i class="fas fa-file-download"></i>&nbsp;&nbsp;CV
 </a>
 </div>
+<script src="assets/js/cv-print.js"></script>
