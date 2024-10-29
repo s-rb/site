@@ -8,25 +8,41 @@ layout: cv
 
 <div class="container has-text-centered column is-full is-size-3 contacts">
 {% if site.linkedin_username %}
+<div class="cv-contact-div">
 <a href="http://linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-linkedin"></i></a>
+</div>
 {% endif %}
 {% if site.github_username %}
+<div class="cv-contact-div">
 <a href="https://github.com/{{site.github_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-github"></i></a>
+</div>
 {% endif %}
 {% if site.telegram_username %}
+<div class="cv-contact-div">
 <a href="https://t.me/{{site.telegram_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-telegram"></i></a>
+</div>
 {% endif %}
 {% if site.leetcode_username %}
+<div class="cv-contact-div">
 <a href="https://leetcode.com/u/{{site.leetcode_username}}" target="_blank" class="has-text-black"><i class="fa fa-code"></i></a>
+</div>
 {% endif %}
 {% if site.devto_username %}
+<div class="cv-contact-div">
 <a href="https://dev.to/{{site.devto_username}}" target="_blank" class="has-text-black"><i class="fab fa-dev"></i></a>
+</div>
 {% endif %}
+<div class="cv-contact-div">
 <a href="mailto:{{site.email}}" target="_blank" class="has-text-black cv-contact mail"><i class="fas fa-envelope"></i></a>
+</div>
+<div class="cv-contact-div">
 <a href="{{site.email}}" target="_blank" class="has-text-black cv-contact mail printable"><i class="fas fa-envelope"></i></a>
+</div>
+<div class="cv-contact-div">
 <a id="cv-link" href="/assets/files/cv.pdf" class="has-text-black cv-contact" onclick="handleCvLinkClick(event)">
     <img src="assets/images/icons/pdf.svg" alt="pdf">
 </a>
+</div>
 </div>
 
 <h1>{{site.data.work_experience.job-title}}</h1>

@@ -116,7 +116,6 @@ h1 {
 
 h1+p { 
 	/*subtitle*/
-	font-style: italic;
 	font-size: 110%;
 }
 
@@ -288,7 +287,7 @@ p+.cv-experience-header {
     text-decoration: none;
     &:after {
        content: " "attr(href); /* Показывать URL после текста ссылки */
-       margin-right: 20px;
+       margin-right: 15px;
     }
     font: normal normal 400;
     font-size: 9pt;
@@ -302,6 +301,9 @@ p+.cv-experience-header {
 .cv-contact svg {
     max-width: 9pt;
     max-height: 9pt;
-    margin-left: 40px;
-    padding-left: 60px;
+    margin-left: 15px;
+}
+
+.cv-contact-div {
+    display: inline-block;
 }
