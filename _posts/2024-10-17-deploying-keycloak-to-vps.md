@@ -116,7 +116,7 @@ automatic certificate renewal and import Keycloak realms during startup.
     your server's IP.
 </div>
 <div><br></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 400px;" src="https://blog.surkoff.com/images/upload/154/642/3137/7B48E32F52CFD5C1EB1CC54C926D363A.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto; max-width: 400px;" src="/assets/images/posts/2024/00011-1.jpg"><br></div>
 <div><br></div><h4>Checking the DNS Record</h4>
 <div>Ensure the DNS record is correctly configured:</div>
 <div><br></div>
@@ -165,7 +165,7 @@ docker-compose up -d</span></pre>
 </div>
 <div>
     <pre style="margin-top: 5px; margin-bottom: 5px; padding: 5px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: 18px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; max-width: 100%; overflow: auto;"><span style="color: rgb(64, 64, 64); font-family: Consolas, Monaco, Monospaced, monospace; font-size: 12px;">docker exec certbot certbot certonly --webroot --webroot-path=/data/letsencrypt -d my-keycloak.surkoff.com --email your_email@gmail.com --agree-tos --no-eff-email --staging</span></pre>
-</div><h4><img style="height: auto; display: block; margin: auto; max-width: 750px;" src="https://blog.surkoff.com/images/upload/-20/797/64064/784819F1E978B245B694B7749D3F054D.jpg"><br></h4>
+</div><h4><img style="height: auto; display: block; margin: auto; max-width: 750px;" src="/assets/images/posts/2024/00011-2.jpg"><br></h4>
 <h4>Checking the Certificate</h4>
 <div>
     <pre style="margin-top: 5px; margin-bottom: 5px; padding: 5px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: 18px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; max-width: 100%; overflow: auto;"><span style="color: rgb(64, 64, 64); font-family: Consolas, Monaco, Monospaced, monospace; font-size: 12px;">docker exec certbot certbot certificates</span></pre>
@@ -194,7 +194,7 @@ docker-compose up -d</span></pre>
     file.
 </div>
 <div><br></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 750px;" src="https://blog.surkoff.com/images/upload/-74/563/0311/DF270E9D92F17ACD5F10830A80BAC89E.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto; max-width: 750px;" src="/assets/images/posts/2024/00011-3.jpg"><br></div>
 <div><br></div>
 <div>For configuring Keycloak, there are interesting articles on other resources, which we won't cover in this
     publication.
