@@ -116,7 +116,7 @@ automatic certificate renewal and import Keycloak realms during startup.
     your server's IP.
 </div>
 <div><br></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 400px;" src="/assets/images/posts/2024/00011-1.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00011-1.jpg"><br></div>
 <div><br></div><h4>Checking the DNS Record</h4>
 <div>Ensure the DNS record is correctly configured:</div>
 <div><br></div>
