@@ -52,7 +52,7 @@ FROM openjdk:17.0.2-jdk-slim-buster
 
 <div><br></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-1.jpg">
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-1.jpg">
     <br></div>
 <div><br></div>
 <div>Like a cake, a Docker image consists of a stack of layers. Each represents a change from the previous layer. When
@@ -86,12 +86,12 @@ FROM openjdk:17.0.2-jdk-slim-buster
 <pre style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 12px; line-height: 18px; font-family: Consolas, Monaco, Monospaced, monospace; margin-top: 5px; margin-bottom: 5px; padding: 5px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); max-width: 100%; overflow: auto; color: rgb(64, 64, 64);">dive upagge/spring-boot-docker:dockerfile</pre>
 <div><br></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-2.jpg"><br></div>
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-2.jpg"><br></div>
 <div><br></div>
 <div>The total size of the image is 448 MB, of which:</div>
 <div><br></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-3.jpg"><br></div>
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-3.jpg"><br></div>
 <div>
     <ul>
         <li>63+8.4 MB is the Linux layer.</li>

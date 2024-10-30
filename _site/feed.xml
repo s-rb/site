@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-29T22:35:19+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Roman Surkoff</title><subtitle>An experienced software engineer</subtitle><entry><title type="html">Deploying Keycloak on a VPS Using Docker-compose, Nginx, Certbot, and SSL</title><link href="http://localhost:4000/blog/deploying-keycloak-to-vps" rel="alternate" type="text/html" title="Deploying Keycloak on a VPS Using Docker-compose, Nginx, Certbot, and SSL" /><published>2024-10-17T00:00:00+02:00</published><updated>2024-10-17T00:00:00+02:00</updated><id>http://localhost:4000/blog/deploying-keycloak-to-vps</id><content type="html" xml:base="http://localhost:4000/blog/deploying-keycloak-to-vps"><![CDATA[<p>The article explains how to deploy Keycloak, an open-source identity management system, on a VPS using Docker-compose, 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-30T16:42:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Roman Surkoff</title><subtitle>An experienced software engineer</subtitle><entry><title type="html">Deploying Keycloak on a VPS Using Docker-compose, Nginx, Certbot, and SSL</title><link href="http://localhost:4000/blog/deploying-keycloak-to-vps" rel="alternate" type="text/html" title="Deploying Keycloak on a VPS Using Docker-compose, Nginx, Certbot, and SSL" /><published>2024-10-17T00:00:00+02:00</published><updated>2024-10-17T00:00:00+02:00</updated><id>http://localhost:4000/blog/deploying-keycloak-to-vps</id><content type="html" xml:base="http://localhost:4000/blog/deploying-keycloak-to-vps"><![CDATA[<p>The article explains how to deploy Keycloak, an open-source identity management system, on a VPS using Docker-compose, 
 Nginx, Certbot, and SSL for secure access. It covers essential setup steps, including creating a domain, configuring 
 Nginx, setting up SSL certificates, and using Docker for deployment automation. The guide also details how to handle 
 automatic certificate renewal and import Keycloak realms during startup.</p>
@@ -245,7 +245,7 @@ build, making it a flexible and efficient solution for large systems.</p>
     in the JDK have been divided into these modules. We will use only those that are truly necessary.
 </div>
 <div><br /></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-1.jpg" /><br /></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-1.jpg" /><br /></div>
 <div><br /></div>
 <div>But how do you know which modules are needed for the application and which are not? Moreover, you must also
     consider all application dependencies. If they use a class from a module you don't include, the application will
@@ -283,7 +283,7 @@ build, making it a flexible and efficient solution for large systems.</p>
     an archiver:
 </div>
 <div><br /></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-2.jpg" /><br /></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-2.jpg" /><br /></div>
 <div><br /></div>
 <div>Here you can find all dependencies, including Tomcat, code, and application resources. It makes sense to organize
     everything into layers as spring-plugin and Jib do.
@@ -360,9 +360,9 @@ build, making it a flexible and efficient solution for large systems.</p>
     <div>Let's explore the image layers. Our image weighs only 173 MB:</div>
     <div><br /></div>
     <div>
-        <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-3.jpg" /><br /></div>
+        <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-3.jpg" /><br /></div>
     <div>
-        <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-4.jpg" /></div>
+        <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-4.jpg" /></div>
     <div>
         <ul>
             <li>63 MB — Linux;</li>
@@ -430,14 +430,14 @@ images directly to registries like Docker Hub, while producing slightly larger i
 <div>Pull the image and analyze it using dive:</div>
 <div><br /></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00009-1.jpg" />
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00009-1.jpg" />
     <br />
 </div>
 <div><br /></div>
 <div>The final weight came out to be 321 MB, which is 12 megabytes more than the previous method. Among them:</div>
 <div><br /></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00009-2.jpg" />
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00009-2.jpg" />
     <br />
 </div>
 <div><br /></div>
@@ -508,12 +508,12 @@ efficient deployment.</p>
 <p>And voilà, we have a working image. Let's explore the layers created by Spring:</p>
 <pre style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 12px; line-height: 18px; font-family: Consolas, Monaco, Monospaced, monospace; margin-top: 5px; margin-bottom: 5px; padding: 5px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); max-width: 100%; overflow: auto; color: rgb(64, 64, 64);">dive upagge/spring-boot-docker:spring-plugin</pre>
 <p>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-1.jpg" />
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-1.jpg" />
     <br />
 </p>
 <p>The created image weighs 309 megabytes, which is 139 megabytes less than the one we built ourselves. But even more
     notable is the structure of the image.</p><p></p>
-<img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-2.jpg" />
+<img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-2.jpg" />
 <p></p>
 <ul>
     <li>63 mb - still Linux;</li>
@@ -530,7 +530,7 @@ efficient deployment.</p>
     dependencies are placed in a separate layer from the release dependencies. After all, the likelihood of their
     changes is much higher.</p><p>Let's launch our container.</p>
 <p>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-3.jpg" />
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-3.jpg" />
     <br />
 </p>
 <p>Notice how much information was provided to us before starting. Spring has made some optimizations for us, as
@@ -586,7 +586,7 @@ FROM openjdk:17.0.2-jdk-slim-buster
 
 <div><br /></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-1.jpg" />
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-1.jpg" />
     <br /></div>
 <div><br /></div>
 <div>Like a cake, a Docker image consists of a stack of layers. Each represents a change from the previous layer. When
@@ -620,12 +620,12 @@ FROM openjdk:17.0.2-jdk-slim-buster
 <pre style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 12px; line-height: 18px; font-family: Consolas, Monaco, Monospaced, monospace; margin-top: 5px; margin-bottom: 5px; padding: 5px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); max-width: 100%; overflow: auto; color: rgb(64, 64, 64);">dive upagge/spring-boot-docker:dockerfile</pre>
 <div><br /></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-2.jpg" /><br /></div>
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-2.jpg" /><br /></div>
 <div><br /></div>
 <div>The total size of the image is 448 MB, of which:</div>
 <div><br /></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00007-3.jpg" /><br /></div>
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00007-3.jpg" /><br /></div>
 <div>
     <ul>
         <li>63+8.4 MB is the Linux layer.</li>
@@ -714,14 +714,14 @@ ssh -i ~/.ssh/id_pipessh user@host -v</pre>
 <h2>Jenkins setup</h2>
 <div><br /></div>
 <div>Install the plugin by navigating to Manage Jenkins &gt; Manage Plugins &gt; Available, check 'Publish Over SSH',
-    and select 'install without restart'.<br /><br /><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00006-2.jpg" /><br /></div>
+    and select 'install without restart'.<br /><br /><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00006-2.jpg" /><br /></div>
 <div><br /></div>
 <div>Configure the ssh key in Jenkins by going to Manage Jenkins &gt; Configure System &gt; Publish over SSH. Select the
     Add button &gt; Advanced to set configuration. Complete the fields Name, Hostname, Username, Remote Directory, check
     the option 'Use password authentication, or use a different key', set the Passphrase (if applicable), and Path to
     key to the private key.
 </div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00006-3.jpg" /><br /></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00006-3.jpg" /><br /></div>
 <div><br /></div>
 <div>Finally, click 'Test Configuration' to validate if everything is set up correctly.</div>
 <div><br /></div>

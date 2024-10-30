@@ -62,14 +62,14 @@ ssh -i ~/.ssh/id_pipessh user@host -v</pre>
 <h2>Jenkins setup</h2>
 <div><br></div>
 <div>Install the plugin by navigating to Manage Jenkins &gt; Manage Plugins &gt; Available, check 'Publish Over SSH',
-    and select 'install without restart'.<br><br><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00006-2.jpg"><br></div>
+    and select 'install without restart'.<br><br><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00006-2.jpg"><br></div>
 <div><br></div>
 <div>Configure the ssh key in Jenkins by going to Manage Jenkins &gt; Configure System &gt; Publish over SSH. Select the
     Add button &gt; Advanced to set configuration. Complete the fields Name, Hostname, Username, Remote Directory, check
     the option 'Use password authentication, or use a different key', set the Passphrase (if applicable), and Path to
     key to the private key.
 </div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00006-3.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00006-3.jpg"><br></div>
 <div><br></div>
 <div>Finally, click 'Test Configuration' to validate if everything is set up correctly.</div>
 <div><br></div>

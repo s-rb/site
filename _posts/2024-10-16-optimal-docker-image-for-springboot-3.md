@@ -50,14 +50,14 @@ images directly to registries like Docker Hub, while producing slightly larger i
 <div>Pull the image and analyze it using dive:</div>
 <div><br></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00009-1.jpg">
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00009-1.jpg">
     <br>
 </div>
 <div><br></div>
 <div>The final weight came out to be 321 MB, which is 12 megabytes more than the previous method. Among them:</div>
 <div><br></div>
 <div>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00009-2.jpg">
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00009-2.jpg">
     <br>
 </div>
 <div><br></div>

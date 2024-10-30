@@ -30,7 +30,7 @@ build, making it a flexible and efficient solution for large systems.
     in the JDK have been divided into these modules. We will use only those that are truly necessary.
 </div>
 <div><br></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-1.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-1.jpg"><br></div>
 <div><br></div>
 <div>But how do you know which modules are needed for the application and which are not? Moreover, you must also
     consider all application dependencies. If they use a class from a module you don't include, the application will
@@ -68,7 +68,7 @@ build, making it a flexible and efficient solution for large systems.
     an archiver:
 </div>
 <div><br></div>
-<div><img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-2.jpg"><br></div>
+<div><img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-2.jpg"><br></div>
 <div><br></div>
 <div>Here you can find all dependencies, including Tomcat, code, and application resources. It makes sense to organize
     everything into layers as spring-plugin and Jib do.
@@ -145,9 +145,9 @@ build, making it a flexible and efficient solution for large systems.
     <div>Let's explore the image layers. Our image weighs only 173 MB:</div>
     <div><br></div>
     <div>
-        <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-3.jpg"><br></div>
+        <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-3.jpg"><br></div>
     <div>
-        <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00010-4.jpg"></div>
+        <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00010-4.jpg"></div>
     <div>
         <ul>
             <li>63 MB — Linux;</li>

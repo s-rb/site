@@ -53,12 +53,12 @@ efficient deployment.
 <p>And voilà, we have a working image. Let's explore the layers created by Spring:</p>
 <pre style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 12px; line-height: 18px; font-family: Consolas, Monaco, Monospaced, monospace; margin-top: 5px; margin-bottom: 5px; padding: 5px; vertical-align: baseline; border: 1px solid rgb(154, 154, 154); outline: 0px; background-image: none; background-position: 0px 0px; background-repeat: repeat; background-attachment: scroll; background-color: rgb(241, 241, 241); max-width: 100%; overflow: auto; color: rgb(64, 64, 64);">dive upagge/spring-boot-docker:spring-plugin</pre>
 <p>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-1.jpg">
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-1.jpg">
     <br>
 </p>
 <p>The created image weighs 309 megabytes, which is 139 megabytes less than the one we built ourselves. But even more
     notable is the structure of the image.</p><p></p>
-<img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-2.jpg">
+<img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-2.jpg">
 <p></p>
 <ul>
     <li>63 mb - still Linux;</li>
@@ -75,7 +75,7 @@ efficient deployment.
     dependencies are placed in a separate layer from the release dependencies. After all, the likelihood of their
     changes is much higher.</p><p>Let's launch our container.</p>
 <p>
-    <img style="height: auto; display: block; margin: auto; max-width: 500px;" src="/assets/images/posts/2024/00008-3.jpg">
+    <img style="height: auto; display: block; margin: auto;" src="/assets/images/posts/2024/00008-3.jpg">
     <br>
 </p>
 <p>Notice how much information was provided to us before starting. Spring has made some optimizations for us, as
