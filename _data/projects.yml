@@ -9,20 +9,17 @@
     The main language is Java 11. The application was built with Apache Maven
     on SpringFramework. MySql as database. JUnit for testing code, Cage for captcha generation,
     and Jakarta Mail for emails
-    You can check the code <a href="https://github.com/s-rb/blog-engine" target="_blank">on github</a>
 - name: Ecommerce Full Stack Application
   link: https://github.com/s-rb/ecommerce-backend
   image: assets/images/projects/EcommerceShop.png
   description: Ecommerce Full Stack Springboot/Angular Application, integration with Payment processor via API
     The backend main language is Java 17 and the app is built using SpringBoot 2.
     The frontend main language is TypeScript and its built using Angular
-    You can check the frontend code <a href="https://github.com/s-rb/ecommerce-frontend" target="_blank">on github</a>
 - name: Japan cafe
   link: http://japan-cafe.surkoff.com
   image: assets/images/projects/JapanCafe.png
   description: React application for the Japan cafe website made for study ReactJS purpose
     Javascript language, ReactJS library. Html, CSS
-    You can check the code <a href="https://github.com/s-rb/japan-cafe" target="_blank">on github</a>
 - name: Quiz
   link: http://quiz.surkoff.com
   image: assets/images/projects/Quiz.png
@@ -30,7 +27,6 @@
     The application calculates right and wrong answers and after the quiz is finished, it will show you the results.
     This application acquires questions and answers from the open API of opentdb.com. The application was created for educational purposes to study ReactJS
     The main language of the application is JavaScript. It uses the ReactJS library. The project was bootstrapped with create-react-app
-    You can check the code <a href="https://github.com/s-rb/react-quiz-app" target="_blank">on github</a>
 - name: Skidka4uBot
   link: https://github.com/s-rb/PriceWatcherBot
   image: assets/images/projects/Bot.png
@@ -56,19 +52,16 @@
   link: https://surkoff.com
   image: assets/images/projects/Portfolio.png
   description: This is my portfolio website. It is built with Javascript and ReactJs library
-    You can check the code <a href="https://github.com/s-rb/portfolio-front" target="_blank">on github</a>
 - name: Costs log
   link: http://costs-log.surkoff.com/
   image: assets/images/projects/CostsLog.png
   description: React application for managing costs. You can add costs with dates and the application calculates results and shows you the diagrams
     Javascript language, ReactJS library, Html, Css
-    You can check the code <a href="https://github.com/s-rb/react-costs-log-app" target="_blank">on github</a>
 - name: Interactive poster
   link: https://github.com/s-rb/interactive-java-poster
   image: assets/images/projects/InteractivePoster.png
   description: This is an interactive poster for Valentine's Day. It's built with Java and LibGdx library. The application is created on GeekBrains intensive
     The app is built with Java 11 language and LibGdx library
-    You can check the code <a href="https://github.com/s-rb/interactive-java-poster" target="_blank">on github</a>
 - name: GUI HashGenerator desktop app
   link: https://github.com/s-rb/gui-hashcode-generator
   image: assets/images/projects/HashGenerator.png
@@ -81,28 +74,23 @@
     The application writes results to a CSV file.
     4) You can click the Open button to open the saved file with results
     The main language is Java 11 (Concurrent, Stream API, IO, NIO). It uses JavaFX for the GUI
-    You can check the code <a href="https://github.com/s-rb/gui-hashcode-generator" target="_blank">on github</a>
 - name: Catch the drop
   link: https://github.com/s-rb/simple-java-game-catch-the-drop
   image: assets/images/projects/JavaGameCatch.png
   description: Java game Catch the drop. The application is built with Java and Swing. It's created on GeekBrains intensive
     The app's main language is Java 11
-    You can check the code <a href="https://github.com/s-rb/simple-java-game-catch-the-drop" target="_blank">on github</a>
 - name: Task list
   link: http://tasklist.surkoff.com/
   image: assets/images/projects/Tasklist_screen.png
   description: Very basic React application to manage tasks. You can add tasks, they appear in the task list. You can remove them from the task list
     Javascript language, ReactJS library, Html, Css
-    You can check the code <a href="https://github.com/s-rb/styling-components-app" target="_blank">on github</a>
 - name: Netty chat
   link: https://github.com/s-rb/SimpleNettyChat
   image: assets/images/projects/NettyChat.png
   description: Simple Netty Chat client and server app. You can run server and a lot of clients. They send messages to the server and server sends messages to all connected clients
     Java 17 FX, Netty framework, Log4j
-    You can check the code <a href="https://github.com/s-rb/SimpleNettyChat" target="_blank">on github</a>
 - name: Android game like Agar.io
   link: https://github.com/s-rb/simple-android-java-game
   image: assets/images/projects/AndroidAgar.png
   description: Simple Android game like agar.io. It uses java and gradle
     Main language is Java 11. It is built with gradle
-    You can check the code <a href="https://github.com/s-rb/simple-android-java-game" target="_blank">on github</a>
