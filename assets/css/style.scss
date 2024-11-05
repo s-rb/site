@@ -95,6 +95,10 @@ a.navbar-item.is-active {
         margin: 0.5rem auto;
         display: flex;
         justify-content: center;
+
+        i {
+            margin-right: 5px;
+        }
     }
 
     svg {
