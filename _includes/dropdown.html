@@ -11,10 +11,12 @@
         </a>
         {% endunless %}
         {% endfor %}
-        <a href="https://surkoff.su"
-            class="navbar-item has-text-grey-light">
-            My React Site
+        {% if site.additional_website %}
+        <a href="http://{{site.additional_website}}"
+           class="navbar-item has-text-grey-light">
+            {% if site.additional_website_title %}{{site.additional_website_title}}{% else %}Another website{% endif %}
         </a>
+        {% endif %}
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue

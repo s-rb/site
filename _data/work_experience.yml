@@ -164,6 +164,12 @@ core-competencies:
   - JUnit/Mockito
 
 certifications:
+  - company: "Hyperskill"
+    date: "11.2024"
+    name: "Kotlin core"
+  - company: "Hyperskill"
+    date: "10.2024"
+    name: "Introduction to Kotlin"
   - company: "Stepik"
     date: "01.2024"
     name: "Ansible for beginners + hands-on experience"

@@ -7,6 +7,11 @@ layout: cv
 <h1 class="name">Roman Surkov</h1>
 
 <div class="container has-text-centered column is-full is-size-3 contacts">
+{% if site.additional_website %}
+<div class="cv-contact-div">
+<a href="http://{{site.additional_website}}" target="_blank" class="has-text-black cv-contact printable"><i class="fas fa-external-link-square-alt"></i></a>
+</div>
+{% endif %}
 {% if site.linkedin_username %}
 <div class="cv-contact-div">
 <a href="http://linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-linkedin"></i></a>
@@ -15,6 +20,11 @@ layout: cv
 {% if site.github_username %}
 <div class="cv-contact-div">
 <a href="https://github.com/{{site.github_username}}" target="_blank" class="has-text-black cv-contact printable"><i class="fab fa-github"></i></a>
+</div>
+{% endif %}
+{% if site.additional_website_2 %}
+<div class="cv-contact-div">
+<a href="http://{{site.additional_website_2}}" target="_blank" class="has-text-black cv-contact printable hide"><i class="fas fa-external-link-square-alt"></i></a>
 </div>
 {% endif %}
 {% if site.telegram_username %}

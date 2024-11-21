@@ -39,6 +39,9 @@
                 You Can find me here
             </h3>
             <div class="column is-full is-size-3">
+                {% unless site.additional_website == %}
+                <a href="http://{{site.additional_website}}" target="_blank" class="has-text-black"><i class="fas fa-external-link-square-alt"></i></a>
+                {% endunless %}
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
                 {% endunless %}
@@ -69,9 +72,6 @@
                 {% unless site.spotify_username ==  %}
                 <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
                 {% endunless %}
-                {% unless site.telegram_username == %}
-                <a href="https://t.me/{{site.telegram_username}}" target="_blank" class="has-text-black"><i class="fab fa-telegram"></i></a>
-                {% endunless %}
                 {% unless site.leetcode_username == %}
                 <a href="https://leetcode.com/u/{{site.leetcode_username}}" target="_blank" class="has-text-black"><i class="fa fa-code"></i></a>
                 {% endunless %}
@@ -84,7 +84,9 @@
                 {% unless site.telegram_channel == %}
                 <a href="https://t.me/{{site.telegram_channel}}" target="_blank" class="has-text-black"><i class="fab fa-telegram-plane"></i></a>
                 {% endunless %}
-
+                {% unless site.telegram_username == %}
+                <a href="https://t.me/{{site.telegram_username}}" target="_blank" class="has-text-black"><i class="fab fa-telegram"></i></a>
+                {% endunless %}
             </div>
         </div>
     </div>

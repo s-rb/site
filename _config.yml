@@ -35,9 +35,12 @@ dribbble_username:
 spotify_username:
 telegram_username: Roman_Surkov
 leetcode_username: surkoff
-devto_username: surkoff
-habr_username: s-rb
-telegram_channel: code_must_flow
+#devto_username: surkoff
+#habr_username: s-rb
+#telegram_channel: code_must_flow
+additional_website: surkoff.su
+additional_website_title: My another site
+additional_website_2: surkoff.com
 
 # Google Analytics
 google-analytics: /
