@@ -164,10 +164,13 @@ core-competencies:
   - JUnit/Mockito
 
 certifications:
-  - company: "Hyperskill"
+  - company: "Hyperskill. Jetbrains Academy"
+    date: "12.2024"
+    name: "Kotlin developer"
+  - company: "Hyperskill. Jetbrains Academy"
     date: "11.2024"
     name: "Kotlin core"
-  - company: "Hyperskill"
+  - company: "Hyperskill. Jetbrains Academy"
     date: "10.2024"
     name: "Introduction to Kotlin"
   - company: "Stepik"
