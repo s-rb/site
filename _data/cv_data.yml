@@ -8,9 +8,6 @@ description:
     and growth. I have successfully collaborated with cross-functional teams to streamline the software development process
     and enhance code quality. Skilled in team leadership, I have effectively managed and mentored junior developers,
     fostering a collaborative and productive work environment.
-  - After spending 10 years working in the designing of engineering systems, leading design teams, and managing project
-    implementation following my graduation in 2009, my strong desire to pursue a career in software development led me
-    to become a Java developer.
   - I am driven by the challenge of solving complex problems and thrive in dynamic environments where I can apply my
     strong problem-solving skills and attention to detail. With a focus on delivering exceptional results, I am dedicated
     to surpassing customer expectations and driving business success.
@@ -91,48 +88,12 @@ experience:
       - Developed the backend for a sports federation portal and an application for working with the database of a government electoral system.
       - Implemented full-text search in PostgreSQL and developed functionality for mass creation of data records.
 
-not_relevant_experience:
-  - period:
-      started: '2018'
-      finished: '2019'
-    company: Nipi
-    position: "Expert at reporting and planning department"
-    description: ""
-
-  - period:
-      started: '2017'
-      finished: '2018'
-    company: Rostelecom
-    position: "Contractor at Nizhne-Bureyskaya HPP construction"
-    description: ""
-
-  - period:
-      started: '2015'
-      finished: '2017'
-    company: Ey
-    position: "Contractor at Blagoveschenskaya TPP reconstruction"
-    description: ""
-
-  - period:
-      started: '2013'
-      finished: '2015'
-    company: Sys
-    position: "Chief project engineer"
-    description: ""
-
-  - period:
-      started: '2009'
-      finished: '2013'
-    company: Ets
-    position: "Lead design engineer"
-    description: ""
-
 engineering_experience:
   - period:
-      started: '07.2009'
-      finished: '11.2019'
-    company: "Ey / Nipi / Rostelecom / Sys / Ets"
-    position: "Chief project engineer / Lead design engineer / Contractor / Expert"
+      started: '01.2018'
+      finished: '01.2019'
+    company: "Ey / Sibur / Rostelecom / Sys / Ets"
+    position: "Expert / Contractor / Lead design engineer / Chief project engineer"
     description:
       - Monitored construction work and equipment delivery for the industrial infrastructure of the Amur Gas Processing Plant project as an expert.
       - Led a design team of 15 members to develop engineering system design documentation for major projects like Bureyskaya HPP and Vostochny Spaceport.
@@ -209,11 +170,11 @@ education:
   - company: "Amur State University"
     additional: "Faculty of Power Engineering"
     qualification: "Specialist degree in Engineering of Power Plants"
-    date_start: "08.2004"
-    date_end: "07.2009"
+    date_start: #"08.2004"
+    date_end:
     period: 5y
   - company: "Skillbox"
     qualification: Student of the "Java Developer" course
-    date_start: "07.2019"
-    date_end: "05.2020"
-    period: 11m
+    date_start:
+    date_end:
+    period: 1y

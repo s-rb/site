@@ -55,9 +55,9 @@ layout: cv
 </div>
 </div>
 
-<h1>{{site.data.work_experience.job-title}}</h1>
+<h1>{{site.data.cv_data.job-title}}</h1>
 
-{% for item in site.data.work_experience.description %}
+{% for item in site.data.cv_data.description %}
 <p class="cv-description">{{item}}</p>
 {% endfor %}
 
@@ -66,7 +66,7 @@ Core competencies
 </h2>
 
 <ul class="cv-core-competencies is-marginless">
-{% for item in site.data.work_experience.core-competencies %}
+{% for item in site.data.cv_data.core-competencies %}
     <li>{{item}}</li>
 {% endfor %}
 </ul>
@@ -75,15 +75,15 @@ Core competencies
 Professional experience
 </h2>
 
-{% for item in site.data.work_experience.experience %}
+{% for item in site.data.cv_data.experience %}
 <div class="cv-experience-header">
     <div class="cv-position">{{item.position}}</div>
     <div class="cv-experience-period">{{ item.period.started }}{% if item.period.finished %} - {{item.period.finished}}{% else %} - now{% endif %}</div>
 </div>
 <div class="cv-experience-header">
     <div class="cv-company">
-{% if site.data.work_experience.companies[item.company] %}
-{{site.data.work_experience.companies[item.company].name}}
+{% if site.data.cv_data.companies[item.company] %}
+{{site.data.cv_data.companies[item.company].name}}
 {% else %}
 {{item.company}}
 {% endif %}</div>
@@ -117,17 +117,15 @@ Professional experience
 {% endfor %}
 {% endfor %}
 
-{% if site.data.work_experience.engineering_experience %}
-<h2>Engineering professional experience</h2>
-{% for item in site.data.work_experience.engineering_experience %}
+{% if site.data.cv_data.engineering_experience %}
+{% for item in site.data.cv_data.engineering_experience %}
 <div class="cv-experience-header">
     <div class="cv-position">{{item.position}}</div>
-    <div class="cv-experience-period">{{ item.period.started }}{% if item.period.finished %} - {{item.period.finished}}{% else %} - now{% endif %}</div>
 </div>
 <div class="cv-experience-header">
     <div class="cv-company">
-{% if site.data.work_experience.companies[item.company] %}
-{{site.data.work_experience.companies[item.company].name}}
+{% if site.data.cv_data.companies[item.company] %}
+{{site.data.cv_data.companies[item.company].name}}
 {% else %}
 {{item.company}}
 {% endif %}</div>
@@ -162,7 +160,7 @@ Professional experience
 {% endfor %}
 {% endif %}
 <h2>Education</h2>
-{% for item in site.data.work_experience.education %}
+{% for item in site.data.cv_data.education %}
 <div>
     <div class="cv-education-header">
         <div class="cv-company">{{item.company}}</div>
@@ -173,13 +171,13 @@ Professional experience
             <div>{{item.additional}}</div>
             <div>{{item.qualification}}</div>
         </div>
-        <div class="cv-experience-period">{{item.date_start}} - {{item.date_end}}</div>
+        <div class="cv-experience-period">{% if item.date_start %}{{item.date_start}} - {{item.date_end}}{% else %} {% endif %}</div>
     </div>
 </div>
 {% endfor %}
 
 <h2>Certifications</h2>
-{% for item in site.data.work_experience.certifications %}
+{% for item in site.data.cv_data.certifications %}
 <div class="cv-summary">
     <strong>{{item.company}}, </strong>
     <span>{{item.name}}, </span>
