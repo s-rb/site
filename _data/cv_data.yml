@@ -170,7 +170,7 @@ education:
   - company: "Amur State University"
     additional: "Faculty of Power Engineering"
     qualification: "Specialist degree in Engineering of Power Plants"
-    date_start: #"08.2004"
+    date_start:
     date_end:
     period: 5y
   - company: "Skillbox"
