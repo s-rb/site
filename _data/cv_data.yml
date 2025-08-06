@@ -46,15 +46,15 @@ experience:
       finished:
     company: Alfa-Bank
     position: Lead Software Engineer
-    description: |
-      - Developed and delivered critical biometric system functionality in response to changing government regulations, including integration with the Unified Biometric System (UBS).
-      - Built functionality for both sending biometric data to UBS and receiving vector-based biometric identifiers in return.
-      - Refactored biometric data processing flows to decouple metadata operations and vector creation into parallel threads, improving performance and reliability.
-      - Implemented biometric-based authentication for payment operations (bio-acquiring).
-      - Migrated all project microservices to a modern tech stack: Java 17+, Spring Boot 3.1+.
-      - Set up Jenkins for automated builds and integrated partial CI/CD workflows within existing infrastructure constraints.
-      - Established structured logging and observability practices using Fluent Bit and Kibana, significantly improving incident response time.
-      - Served as Scrum Master, facilitating Agile ceremonies, backlog grooming, and improving team delivery velocity.
+    description:
+      - "Developed and delivered critical biometric system functionality in response to changing government regulations, including integration with the Unified Biometric System (UBS)."
+      - "Built functionality for both sending biometric data to UBS and receiving vector-based biometric identifiers in return."
+      - "Refactored biometric data processing flows to decouple metadata operations and vector creation into parallel threads, improving performance and reliability."
+      - "Implemented biometric-based authentication for payment operations (bio-acquiring)."
+      - "Migrated all project microservices to a modern tech stack: Java 17+, Spring Boot 3.1+."
+      - "Set up Jenkins for automated builds and integrated partial CI/CD workflows within existing infrastructure constraints."
+      - "Established structured logging and observability practices using Fluent Bit and Kibana, significantly improving incident response time."
+      - "Served as Scrum Master, facilitating Agile ceremonies, backlog grooming, and improving team delivery velocity."
 
   - period:
       started: '10.2021'
