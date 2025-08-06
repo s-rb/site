@@ -1,18 +1,12 @@
 name: Roman Surkov
-job-title: Software engineer
-description:
-  - Experienced and results-oriented Java developer with a passion for delivering high-quality software solutions.
-    With a strong track record of delivering successful projects across various industries, including banking software and
-    government portals
-  - Throughout my career, I have demonstrated a passion for software development and a commitment to continuous learning
-    and growth. I have successfully collaborated with cross-functional teams to streamline the software development process
-    and enhance code quality. Skilled in team leadership, I have effectively managed and mentored junior developers,
-    fostering a collaborative and productive work environment.
-  - I am driven by the challenge of solving complex problems and thrive in dynamic environments where I can apply my
-    strong problem-solving skills and attention to detail. With a focus on delivering exceptional results, I am dedicated
-    to surpassing customer expectations and driving business success.
-  - I am seeking a new opportunity where I can leverage my experience to contribute to the success of a promising company.
+job-title: Senior Java Software Engineer
 
+description:
+  - Experienced and results-oriented Java Developer with a strong focus on backend development, system architecture, and microservices.
+  - Proven ability to deliver high-quality software across banking, fintech, and government sectors, including mission-critical and high-load systems.
+  - Skilled in leading teams, mentoring junior developers, and streamlining development processes using Agile methodologies and modern DevOps practices.
+  - Passionate about clean code, scalability, and solving complex business challenges with efficient technical solutions.
+  - Actively seeking a remote or relocation opportunity to contribute to an international team and work on impactful, innovative products.
 
 companies:
   Ey:
@@ -37,10 +31,10 @@ companies:
     name: 'NIPIGAZ (SIBUR Group)'
     url: 'https://www.nipigas.ru/'
   Sys:
-    name: 'System & networks'
+    name: 'System & Networks'
     url: null
   Ets:
-    name: 'Electrical systems'
+    name: 'Electrical Systems'
     url: 'http://etsystem.ru/'
   Rostelecom:
     name: 'Rostelecom'
@@ -50,74 +44,77 @@ experience:
   - period:
       started: '12.2023'
       finished:
-    company: AlfaBank
-    position: "Lead software engineer"
-    description:
-      - "Developed various solutions for a project managing biometric data of clients and employees: collection, storage, processing, and integration with other Bank systems and government agencies."
-      - Migrated all microservices to a modern technology stack.
-      - Developed several parts of functionality within tight deadlines to comply with rapidly changing legislation, enabling the Bank to retain licenses for working with biometrics.
-      - Significantly improved logging on the project, allowing the support team in the production environment to more effectively monitor and analyze events.
-      - Officially performed the functions of the team Scrum Master, conducting all necessary meetings and ensuring the relevance of tasks and the backlog.
+    company: Alfa-Bank
+    position: Lead Software Engineer
+    description: |
+      - Developed and delivered critical biometric system functionality in response to changing government regulations, including integration with the Unified Biometric System (UBS).
+      - Built functionality for both sending biometric data to UBS and receiving vector-based biometric identifiers in return.
+      - Refactored biometric data processing flows to decouple metadata operations and vector creation into parallel threads, improving performance and reliability.
+      - Implemented biometric-based authentication for payment operations (bio-acquiring).
+      - Migrated all project microservices to a modern tech stack: Java 17+, Spring Boot 3.1+.
+      - Set up Jenkins for automated builds and integrated partial CI/CD workflows within existing infrastructure constraints.
+      - Established structured logging and observability practices using Fluent Bit and Kibana, significantly improving incident response time.
+      - Served as Scrum Master, facilitating Agile ceremonies, backlog grooming, and improving team delivery velocity.
 
   - period:
       started: '10.2021'
       finished: '12.2023'
     company: It_one
-    position: "Senior software engineer"
+    position: Senior Software Engineer
     description:
-      - Developed banking software for one of the largest banks in the country.
-      - Implemented a digital signature project for clients, attracting new partners and tripling the number of issued loans.
-      - Performed technical improvements that significantly reduced production time.
-      - Separated microservices, increased test coverage, and implemented new CI/CD processes.
+      - Built core banking software for one of the largest financial institutions in Russia.
+      - Implemented a digital signature solution for loan processing, increasing issuance volume x3.
+      - Decomposed monolithic services into microservices and optimized CI/CD pipelines.
+      - Boosted code test coverage and improved deployment reliability.
 
   - period:
       started: '09.2020'
       finished: '10.2021'
     company: Colvir
-    position: "Java developer"
+    position: Java Developer
     description:
-      - Participated in maintaining the company's main product, banking software.
-      - Developed a service for receiving multicast data from the stock exchange in a multithreaded mode.
+      - Maintained and enhanced the company's flagship banking product.
+      - Developed a multithreaded market data receiver for stock exchange multicast traffic.
 
   - period:
       started: '07.2020'
       finished: '09.2021'
     company: Codemark
-    position: "Programmer"
+    position: Backend Developer
     description:
-      - Developed the backend for a sports federation portal and an application for working with the database of a government electoral system.
-      - Implemented full-text search in PostgreSQL and developed functionality for mass creation of data records.
+      - Built backend features for a sports federation portal and electoral system interface.
+      - Integrated PostgreSQL full-text search and implemented mass data processing modules.
 
 engineering_experience:
   - period:
       started: '01.2018'
       finished: '01.2020'
-    company: "Ey / Sibur / Rostelecom / Sys / Ets"
-    position: "Expert / Contractor / Lead design engineer / Chief project engineer"
+    company: "EY / SIBUR / Rostelecom / Sys / Ets"
+    position: Engineering Expert & Team Lead
     description:
-      - Monitored construction work and equipment delivery for the industrial infrastructure of the Amur Gas Processing Plant project as an expert.
-      - Led a design team of 15 members to develop engineering system design documentation for major projects like Bureyskaya HPP and Vostochny Spaceport.
+      - Managed large infrastructure projects including Bureyskaya HPP and Vostochny Spaceport.
+      - Led a 15-person design team and oversaw construction monitoring and documentation compliance.
 
 core-competencies:
   - Java/Kotlin
-  - Teamwork
+  - Team Leadership
   - OOP
   - FinTech
   - Kibana
   - Spring&nbsp;Framework
   - Docker
-  - Git
+  - CI/CD
   - Jira/Confluence
   - Liquibase
   - JSON
   - SQL
   - Microservices
-  - Scrum
+  - Agile/Scrum
   - Teamcity
   - REST API
   - SpringBoot
   - CamundaBPM
-  - Bitbucket
+  - Git/Bitbucket
   - Gradle/Maven
   - PostgreSQL
   - MongoDB
@@ -125,46 +122,46 @@ core-competencies:
   - JUnit/Mockito
 
 certifications:
-  - company: "Hyperskill. Jetbrains Academy"
+  - company: "JetBrains Academy (Hyperskill)"
     date: "12.2024"
-    name: "Kotlin developer"
-  - company: "Hyperskill. Jetbrains Academy"
+    name: "Kotlin Developer"
+  - company: "JetBrains Academy (Hyperskill)"
     date: "11.2024"
-    name: "Kotlin core"
-  - company: "Hyperskill. Jetbrains Academy"
+    name: "Kotlin Core"
+  - company: "JetBrains Academy (Hyperskill)"
     date: "10.2024"
     name: "Introduction to Kotlin"
   - company: "Stepik"
     date: "01.2024"
-    name: "Ansible for beginners + hands-on experience"
+    name: "Ansible for Beginners + Hands-on Experience"
   - company: "Stepik"
     date: "12.2023"
-    name: "Kubernetes for users"
-  - company: "Specialist - Computer Training Center"
+    name: "Kubernetes for Users"
+  - company: "Specialist Training Center"
     date: "06.2023"
-    name: "Refactoring as a systematic approach"
+    name: "Refactoring as a Systematic Approach"
   - company: "Udemy"
     date: "10.2023"
     name: "FullStack: Angular and Java SpringBoot E-Commerce Website"
-  - company: "IBS Training center"
+  - company: "IBS Training Center"
     date: "05.2023"
-    name: "Design patterns (GoF). Java edition. Technologies and Tools for Software and Information Systems Development"
-  - company: "IBS Training center"
+    name: "Design Patterns (GoF). Java Edition"
+  - company: "IBS Training Center"
     date: "12.2022"
-    name: "Java Efficiency. Technologies and Tools for Software and Information Systems Development"
+    name: "Java Efficiency & Tooling"
   - company: "Mail.ru"
     date: "04.2020"
-    name: "Development of a Web Service in Java"
-  - company: "Geekbrains"
+    name: "Web Service Development in Java"
+  - company: "GeekBrains"
     date: "05.2020"
-    name: "Java beginner, medium, advanced level tests"
-  - company: "Fluent cities"
+    name: "Java Beginner to Advanced Test Suite"
+  - company: "Fluent Cities"
     dateStart: "08.2018"
     dateEnd: "05.2019"
     name: "Business English Intermediate"
   - company: "Management Systems"
     date: "08.2015"
-    name: "Project Management with Oracle Primavera, Basic Course"
+    name: "Project Management with Oracle Primavera"
 
 education:
   - company: "Amur State University"
