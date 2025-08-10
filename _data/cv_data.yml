@@ -2,11 +2,11 @@ name: Roman Surkov
 job-title: Senior Java Software Engineer
 
 description:
-  - Experienced and results-oriented Java Developer with a strong focus on backend development, system architecture, and microservices.
-  - Proven ability to deliver high-quality software across banking, fintech, and government sectors, including mission-critical and high-load systems.
-  - Skilled in leading teams, mentoring junior developers, and streamlining development processes using Agile methodologies and modern DevOps practices.
-  - Passionate about clean code, scalability, and solving complex business challenges with efficient technical solutions.
-  - Actively seeking a remote or relocation opportunity to contribute to an international team and work on impactful, innovative products.
+  - Experienced and results-oriented Java Developer with a strong focus on backend development and microservices architecture.
+  - Proven ability to deliver high-quality software across fintech and government sectors, including mission-critical systems.
+  - Delivered regulatory-compliant biometric solutions and operational features that improved business processes, reduced time-to-decision and increased product throughput.
+  - "Proven track record of driving business impact: launched dealer-credit processes, implemented digital-signature flows that tripled loan issuance, and increased credit conversions by ~10% through cross-flow integrations."
+  - Actively seeking remote or relocation opportunities to join international teams and work on impactful, innovative products.
 
 companies:
   Ey:
@@ -47,14 +47,14 @@ experience:
     company: Alfa-Bank
     position: Lead Software Engineer
     description:
-      - "Developed and delivered critical biometric system functionality in response to changing government regulations, including integration with the Unified Biometric System (UBS)."
-      - "Built functionality for both sending biometric data to UBS and receiving vector-based biometric identifiers in return."
-      - "Refactored biometric data processing flows to decouple metadata operations and vector creation into parallel threads, improving performance and reliability."
-      - "Implemented biometric-based authentication for payment operations (bio-acquiring)."
-      - "Migrated all project microservices to a modern tech stack: Java 17+, Spring Boot 3.1+."
-      - "Set up Jenkins for automated builds and integrated partial CI/CD workflows within existing infrastructure constraints."
-      - "Established structured logging and observability practices using Fluent Bit and Kibana, significantly improving incident response time."
-      - "Served as Scrum Master, facilitating Agile ceremonies, backlog grooming, and improving team delivery velocity."
+      - "Implemented urgent integration to upload collected biometric data to the national Unified Biometric System (UBS) to meet new government regulations, delivered within tight timelines."
+      - "Designed and implemented reverse integration to consume vector-based biometric identifiers from UBS, enabling state-sourced biometric authentication."
+      - "Re-architected biometric processing pipelines and parallelized vector creation and metadata processing to improve throughput and reliability."
+      - "Migrated microservices to a modern stack (Java 17+, Spring Boot 3.1+); upgraded libraries and introduced unit and integration tests to reduce regressions."
+      - "Configured Jenkins for automated builds and established baseline CI/CD processes adapted to infrastructure constraints. Improved observability with Fluent Bit logging, reducing time-to-investigation for incidents."
+      - "Served as Scrum Master: led Agile ceremonies, backlog grooming and cross-team coordination to increase delivery cadence."
+      - "Impact: system now supports branch queuing, bio-payments, fraud-detection workflows, confirmation of suspicious operations, and staff-operated transaction flows."
+
 
   - period:
       started: '10.2021'
@@ -73,8 +73,8 @@ experience:
     company: Colvir
     position: Java Developer
     description:
-      - Maintained and enhanced the company's flagship banking product.
-      - Developed a multithreaded market data receiver for stock exchange multicast traffic.
+      - "Maintained and enhanced the company's flagship banking product."
+      - "Implemented a robust multithreaded market-data receiver for the KASE exchange: handled UDP multicast streams with duplicate detection and unreliable delivery."
 
   - period:
       started: '07.2020'
@@ -82,8 +82,8 @@ experience:
     company: Codemark
     position: Backend Developer
     description:
-      - Built backend features for a sports federation portal and electoral system interface.
-      - Integrated PostgreSQL full-text search and implemented mass data processing modules.
+      - "Built backend features for a sports federation portal and government electoral system interface."
+      - "Implemented two fuzzy-search approaches: vector similarity search and trigram-based approximate matching for flexible lookups."
 
 engineering_experience:
   - period:
@@ -92,8 +92,8 @@ engineering_experience:
     company: "EY / SIBUR / Rostelecom / Sys / Ets"
     position: Engineering Expert & Team Lead
     description:
-      - Managed large infrastructure projects including Bureyskaya HPP and Vostochny Spaceport.
-      - Led a 15-person design team and oversaw construction monitoring and documentation compliance.
+      - Designed substation and power-line projects, and developed engineering systems for Vostochny Cosmodrome and Bureyskaya HPP.
+      - Monitored construction and equipment delivery for Blagoveshchenskaya TPP and Amur Gas Processing Plant; ensured documentation and quality compliance.
 
 core-competencies:
   - Java/Kotlin
@@ -166,12 +166,12 @@ certifications:
 education:
   - company: "Amur State University"
     additional: "Faculty of Power Engineering"
-    qualification: "Specialist degree in Engineering of Power Plants"
+    qualification: "Specialist Degree – Engineering of Power Plants"
     date_start:
     date_end:
     period: 5y
   - company: "Skillbox"
-    qualification: Student of the "Java Developer" course
+    qualification: "Java Developer Certificate"
     date_start:
     date_end:
     period: 1y
