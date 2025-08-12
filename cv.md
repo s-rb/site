@@ -62,6 +62,14 @@ layout: cv
 {% endfor %}
 
 <h2>
+Selected achievements
+</h2>
+
+{% for item in site.data.cv_data.selected_achievements %}
+<p class="cv-description">{{item}}</p>
+{% endfor %}
+
+<h2>
 Core competencies
 </h2>
 

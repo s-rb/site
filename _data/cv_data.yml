@@ -2,29 +2,36 @@ name: Roman Surkov
 job-title: Senior Java Software Engineer
 
 description:
-  - "Backend Java developer delivering high-performance APIs, scalable microservices, and seamless integrations, with a strong record of building mission-critical fintech and government solutions."
-  - "Expert in optimizing workflows, modernizing legacy systems, and ensuring system reliability under high load, with solid skills in testing, CI/CD, and observability."
+  - "Backend Java Developer delivering high-performance APIs, scalable microservices, and seamless integrations, with a proven record of building mission-critical fintech and government solutions."
+  - "Expert in Java 17+ and Spring Boot, focused on clean, testable code, modernizing legacy systems, and ensuring high availability under load. With solid skills in testing, CI/CD, and observability to deliver secure, stable, and maintainable releases."
   - "Open to relocation or remote opportunities to bring expertise to an international team and contribute to impactful, innovative products."
 
 selected_achievements:
-  - Delivered full integration with the Russian Unified Biometric System (UBS) in record time, enabling compliance with government regulations and supporting features like bio-acquiring and fraud detection.
-  - Implemented digital signature processing for auto loans, tripling issuance volume and significantly improving customer experience.
-  - Launched credit application workflows in automotive dealerships, introducing new revenue streams and strengthening dealer partnerships.
-  - Migrated legacy microservices to a modern Java 17+ and Spring Boot 3.x stack, improving maintainability, performance, and scalability. Added unit & integration tests and configured Jenkins builds.
+  - Delivered end-to-end integration with the Russian Unified Biometric System (UBS) ahead of schedule, ensuring regulatory compliance and enabling biometric payments and fraud-detection features.
+  - Implemented digital signature (e-sign) flows for auto loans, tripling issuance volume and substantially improving customer experience.
+  - Launched point-of-sale credit workflows for automotive dealerships, opening new revenue channels and strengthening dealer partnerships.
+  - Migrated legacy microservices to Java 17+ and Spring Boot 3.x, increasing maintainability, performance, and scalability; added unit & integration tests and configured Jenkins builds.
+  - Built and published AI-driven job-search platform. Try it at https://jeeker.one
 
 core-competencies:
-  - Java/Kotlin
+  - Java 17+
+  - Kotlin
   - Spring&nbsp;Framework
   - Microservices
   - REST API
-  - PostgreSQL/MongoDB
-  - Docker/Git
-  - CI/CD (Jenkins)
+  - PostgreSQL
+  - MongoDB
+  - Docker
+  - Git
+  - CI/CD
+  - Jenkins
   - JUnit/Mockito
-  - Kafka/RabbitMQ
+  - Kafka
+  - RabbitMQ
   - ELK/Kibana
   - FinTech
-  - Agile/Scrum
+  - Agile
+  - Scrum
 
 experience:
   - period:
@@ -33,12 +40,13 @@ experience:
     company: Alfa-Bank
     position: Lead Software Engineer
     description:
-      - Delivered critical biometric system functionality in response to changing government regulations, including UBS integration.
-      - Built features for sending biometric data to UBS and receiving vector-based identifiers.
-      - Migrated project microservices to Java 17+, Spring Boot 3.x.
-      - Set up Jenkins CI/CD workflows and structured logging with Fluent Bit + Kibana. Introduced unit and integration test coverage.
-      - "Served as Scrum Master: led Agile ceremonies, backlog grooming and cross-team coordination to increase delivery cadence."
-      - Enabled biometric-based operations including queueing in branches, bio-acquiring, fraud detection, and suspicious transaction confirmations.
+      - Delivered mission-critical biometric functionality to meet new regulations, including two-way integration with the Unified Biometric System (UBS).
+      - Implemented upload of biometric data and consumption of vector-based identifiers from UBS.
+#      - Parallelized processing pipelines separating vector creation and metadata handling, improving throughput and resilience.
+      - Migrated microservices to Java 17+ and Spring Boot 3.x; added unit & integration tests and configured Jenkins builds.
+      - Improved monitoring and incident response through structured logs and dashboards.
+      - "Served as Scrum Master: led Agile ceremonies and backlog grooming to increase delivery cadence."
+      - "Enabled biometric features in production: branch queueing, biometric payments (bio-acquiring), fraud detection, and staff-assisted confirmations."
 
   - period:
       started: '10.2021'
@@ -46,9 +54,9 @@ experience:
     company: It_one
     position: Senior Software Engineer
     description:
-      - Launched credit workflows in car dealerships, one of the first on the market.
-      - Implemented digital signature processing, increasing loan issuance x3.
-      - Improved credit approvals by 10% via cross-department application reuse.
+      - Launched credit application workflows in dealership points of sale, among the first on the market.
+      - Implemented e-signature flows for loan documents, increasing loan issuance threefold.
+      - Enabled cross-flow reuse of declined applications, increasing approvals by ~10%.
       - Built core banking software for one of the largest financial institutions in the country.
 
   - period:
@@ -57,8 +65,8 @@ experience:
     company: Colvir
     position: Java Developer
     description:
-      - Maintained and enhanced the company's flagship banking product.
-      - Developed multithreaded integration with KASE stock exchange using multicast UDP with deduplication and fault-tolerance mechanisms.
+      - "Maintained and enhanced the company's flagship banking product features."
+      - "Implemented a multithreaded market-data receiver for KASE exchange: multicast UDP handling, deduplication and fault tolerance."
 
   - period:
       started: '07.2020'
@@ -66,8 +74,8 @@ experience:
     company: Codemark
     position: Backend Developer
     description:
-      - Built backend features for sports federation portal and election system.
-      - Implemented fuzzy search (vector-based and trigram) and automated data processing pipelines.
+      - Developed backend modules for sports federation and election systems.
+      - Implemented fuzzy search (vector similarity and trigram) and automated data ingestion with quality checks.
 
 engineering_experience:
   - period:
@@ -76,7 +84,7 @@ engineering_experience:
     company: "EY / SIBUR / Rostelecom / Sys / Ets"
     position: Engineering Expert & Team Lead
     description:
-      - Led infrastructure projects for power plants, hydroelectric stations, and spaceport facilities
+      - Led engineering projects for power plants, hydro stations, and spaceport systems.
       - Oversaw construction monitoring, compliance, and team coordination
 
 education:
@@ -96,12 +104,12 @@ certifications:
   - company: "JetBrains Academy (Hyperskill)"
     date: "12.2024"
     name: "Kotlin Developer"
-  - company: "JetBrains Academy (Hyperskill)"
-    date: "11.2024"
-    name: "Kotlin Core"
-  - company: "JetBrains Academy (Hyperskill)"
-    date: "10.2024"
-    name: "Introduction to Kotlin"
+#  - company: "JetBrains Academy (Hyperskill)"
+#    date: "11.2024"
+#    name: "Kotlin Core"
+#  - company: "JetBrains Academy (Hyperskill)"
+#    date: "10.2024"
+#    name: "Introduction to Kotlin"
   - company: "Stepik"
     date: "01.2024"
     name: "Ansible for Beginners + Hands-on Experience"
@@ -123,9 +131,9 @@ certifications:
   - company: "Mail.ru"
     date: "04.2020"
     name: "Web Service Development in Java"
-  - company: "GeekBrains"
-    date: "05.2020"
-    name: "Java Beginner to Advanced Test Suite"
+#  - company: "GeekBrains"
+#    date: "05.2020"
+#    name: "Java Beginner to Advanced Test Suite"
   - company: "Fluent Cities"
     dateStart: "08.2018"
     dateEnd: "05.2019"
