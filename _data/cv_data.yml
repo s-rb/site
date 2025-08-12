@@ -2,43 +2,29 @@ name: Roman Surkov
 job-title: Senior Java Software Engineer
 
 description:
-  - Experienced and results-oriented Java Developer with a strong focus on backend development and microservices architecture.
-  - Proven ability to deliver high-quality software across fintech and government sectors, including mission-critical systems.
-  - Delivered regulatory-compliant biometric solutions and operational features that improved business processes, reduced time-to-decision and increased product throughput.
-  - "Proven track record of driving business impact: launched dealer-credit processes, implemented digital-signature flows that tripled loan issuance, and increased credit conversions by ~10% through cross-flow integrations."
-  - Actively seeking remote or relocation opportunities to join international teams and work on impactful, innovative products.
+  - "Backend Java developer delivering high-performance APIs, scalable microservices, and seamless integrations, with a strong record of building mission-critical fintech and government solutions."
+  - "Expert in optimizing workflows, modernizing legacy systems, and ensuring system reliability under high load, with solid skills in testing, CI/CD, and observability."
+  - "Open to relocation or remote opportunities to bring expertise to an international team and contribute to impactful, innovative products."
 
-companies:
-  Ey:
-    name: 'Ernst & Young'
-    url: 'https://ey.com'
-  It_one:
-    name: 'It-one'
-    url: 'https://it-one.ru'
-  AlfaBank:
-    name: 'Alfa-Bank'
-    url: 'https://alfabank.ru'
-  Colvir:
-    name: 'Colvir Software Solutions'
-    url: 'https://colvir.com'
-  Codemark:
-    name: 'Codemark'
-    url: 'http://codemark.ru/'
-  Skillbox:
-    name: 'Skillbox'
-    url: 'https://skillbox.ru'
-  Nipi:
-    name: 'NIPIGAZ (SIBUR Group)'
-    url: 'https://www.nipigas.ru/'
-  Sys:
-    name: 'System & Networks'
-    url: null
-  Ets:
-    name: 'Electrical Systems'
-    url: 'http://etsystem.ru/'
-  Rostelecom:
-    name: 'Rostelecom'
-    url: 'https://rt.ru'
+selected_achievements:
+  - Delivered full integration with the Russian Unified Biometric System (UBS) in record time, enabling compliance with government regulations and supporting features like bio-acquiring and fraud detection.
+  - Implemented digital signature processing for auto loans, tripling issuance volume and significantly improving customer experience.
+  - Launched credit application workflows in automotive dealerships, introducing new revenue streams and strengthening dealer partnerships.
+  - Migrated legacy microservices to a modern Java 17+ and Spring Boot 3.x stack, improving maintainability, performance, and scalability. Added unit & integration tests and configured Jenkins builds.
+
+core-competencies:
+  - Java/Kotlin
+  - Spring&nbsp;Framework
+  - Microservices
+  - REST API
+  - PostgreSQL/MongoDB
+  - Docker/Git
+  - CI/CD (Jenkins)
+  - JUnit/Mockito
+  - Kafka/RabbitMQ
+  - ELK/Kibana
+  - FinTech
+  - Agile/Scrum
 
 experience:
   - period:
@@ -47,14 +33,12 @@ experience:
     company: Alfa-Bank
     position: Lead Software Engineer
     description:
-      - "Implemented urgent integration to upload collected biometric data to the national Unified Biometric System (UBS) to meet new government regulations, delivered within tight timelines."
-      - "Designed and implemented reverse integration to consume vector-based biometric identifiers from UBS, enabling state-sourced biometric authentication."
-      - "Re-architected biometric processing pipelines and parallelized vector creation and metadata processing to improve throughput and reliability."
-      - "Migrated microservices to a modern stack (Java 17+, Spring Boot 3.1+); upgraded libraries and introduced unit and integration tests to reduce regressions."
-      - "Configured Jenkins for automated builds and established baseline CI/CD processes adapted to infrastructure constraints. Improved observability with Fluent Bit logging, reducing time-to-investigation for incidents."
+      - Delivered critical biometric system functionality in response to changing government regulations, including UBS integration.
+      - Built features for sending biometric data to UBS and receiving vector-based identifiers.
+      - Migrated project microservices to Java 17+, Spring Boot 3.x.
+      - Set up Jenkins CI/CD workflows and structured logging with Fluent Bit + Kibana. Introduced unit and integration test coverage.
       - "Served as Scrum Master: led Agile ceremonies, backlog grooming and cross-team coordination to increase delivery cadence."
-      - "Impact: system now supports branch queuing, bio-payments, fraud-detection workflows, confirmation of suspicious operations, and staff-operated transaction flows."
-
+      - Enabled biometric-based operations including queueing in branches, bio-acquiring, fraud detection, and suspicious transaction confirmations.
 
   - period:
       started: '10.2021'
@@ -62,10 +46,10 @@ experience:
     company: It_one
     position: Senior Software Engineer
     description:
-      - Built core banking software for one of the largest financial institutions in Russia.
-      - Implemented a digital signature solution for loan processing, increasing issuance volume x3.
-      - Decomposed monolithic services into microservices and optimized CI/CD pipelines.
-      - Boosted code test coverage and improved deployment reliability.
+      - Launched credit workflows in car dealerships, one of the first on the market.
+      - Implemented digital signature processing, increasing loan issuance x3.
+      - Improved credit approvals by 10% via cross-department application reuse.
+      - Built core banking software for one of the largest financial institutions in the country.
 
   - period:
       started: '09.2020'
@@ -73,8 +57,8 @@ experience:
     company: Colvir
     position: Java Developer
     description:
-      - "Maintained and enhanced the company's flagship banking product."
-      - "Implemented a robust multithreaded market-data receiver for the KASE exchange: handled UDP multicast streams with duplicate detection and unreliable delivery."
+      - Maintained and enhanced the company's flagship banking product.
+      - Developed multithreaded integration with KASE stock exchange using multicast UDP with deduplication and fault-tolerance mechanisms.
 
   - period:
       started: '07.2020'
@@ -82,8 +66,8 @@ experience:
     company: Codemark
     position: Backend Developer
     description:
-      - "Built backend features for a sports federation portal and government electoral system interface."
-      - "Implemented two fuzzy-search approaches: vector similarity search and trigram-based approximate matching for flexible lookups."
+      - Built backend features for sports federation portal and election system.
+      - Implemented fuzzy search (vector-based and trigram) and automated data processing pipelines.
 
 engineering_experience:
   - period:
@@ -92,34 +76,21 @@ engineering_experience:
     company: "EY / SIBUR / Rostelecom / Sys / Ets"
     position: Engineering Expert & Team Lead
     description:
-      - Designed substation and power-line projects, and developed engineering systems for Vostochny Cosmodrome and Bureyskaya HPP.
-      - Monitored construction and equipment delivery for Blagoveshchenskaya TPP and Amur Gas Processing Plant; ensured documentation and quality compliance.
+      - Led infrastructure projects for power plants, hydroelectric stations, and spaceport facilities
+      - Oversaw construction monitoring, compliance, and team coordination
 
-core-competencies:
-  - Java/Kotlin
-  - Team Leadership
-  - OOP
-  - FinTech
-  - Kibana
-  - Spring&nbsp;Framework
-  - Docker
-  - CI/CD
-  - Jira/Confluence
-  - Liquibase
-  - JSON
-  - SQL
-  - Microservices
-  - Agile/Scrum
-  - Teamcity
-  - REST API
-  - SpringBoot
-  - CamundaBPM
-  - Git/Bitbucket
-  - Gradle/Maven
-  - PostgreSQL
-  - MongoDB
-  - Kafka
-  - JUnit/Mockito
+education:
+  - company: "Amur State University"
+    additional: "Faculty of Power Engineering"
+    qualification: "Specialist Degree – Engineering of Power Plants"
+    date_start:
+    date_end:
+    period: 5y
+  - company: "Skillbox"
+    qualification: "Java Developer Certificate"
+    date_start:
+    date_end:
+    period: 1y
 
 certifications:
   - company: "JetBrains Academy (Hyperskill)"
@@ -163,15 +134,34 @@ certifications:
     date: "08.2015"
     name: "Project Management with Oracle Primavera"
 
-education:
-  - company: "Amur State University"
-    additional: "Faculty of Power Engineering"
-    qualification: "Specialist Degree – Engineering of Power Plants"
-    date_start:
-    date_end:
-    period: 5y
-  - company: "Skillbox"
-    qualification: "Java Developer Certificate"
-    date_start:
-    date_end:
-    period: 1y
+companies:
+  Ey:
+    name: 'Ernst & Young'
+    url: 'https://ey.com'
+  It_one:
+    name: 'It-one'
+    url: 'https://it-one.ru'
+  AlfaBank:
+    name: 'Alfa-Bank'
+    url: 'https://alfabank.ru'
+  Colvir:
+    name: 'Colvir Software Solutions'
+    url: 'https://colvir.com'
+  Codemark:
+    name: 'Codemark'
+    url: 'http://codemark.ru/'
+  Skillbox:
+    name: 'Skillbox'
+    url: 'https://skillbox.ru'
+  Nipi:
+    name: 'NIPIGAZ (SIBUR Group)'
+    url: 'https://www.nipigas.ru/'
+  Sys:
+    name: 'System & Networks'
+    url: null
+  Ets:
+    name: 'Electrical Systems'
+    url: 'http://etsystem.ru/'
+  Rostelecom:
+    name: 'Rostelecom'
+    url: 'https://rt.ru'
