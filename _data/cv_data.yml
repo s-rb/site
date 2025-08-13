@@ -2,16 +2,17 @@ name: Roman Surkov
 job-title: Senior Java Software Engineer
 
 description:
-  - "Backend Java Developer delivering high-performance APIs, scalable microservices, and seamless integrations, with a proven record of building mission-critical fintech and government solutions."
-  - "Expert in Java 17+ and Spring Boot, focused on clean, testable code, modernizing legacy systems, and ensuring high availability under load. With solid skills in testing, CI/CD, and observability to deliver secure, stable, and maintainable releases."
+  - "Backend Java Developer delivering high-performance APIs, scalable microservices, and seamless integrations for fintech, banking, and government systems."
+  - "Expert in Java 17+ and Spring Boot, focused on clean, maintainable code; skilled in modernizing legacy systems, optimizing performance, and ensuring availability under heavy load. Proficient in testing, CI/CD, and observability to deliver secure, stable, and production-ready releases."
+  - "Creator of Jeeker.one — an AI-powered job search assistant demonstrating skills in Java, Spring Boot, and complex system integration."
   - "Open to relocation or remote opportunities to bring expertise to an international team and contribute to impactful, innovative products."
 
 selected_achievements:
-  - Delivered end-to-end integration with the Russian Unified Biometric System (UBS) ahead of schedule, ensuring regulatory compliance and enabling biometric payments and fraud-detection features.
-  - Implemented digital signature (e-sign) flows for auto loans, tripling issuance volume and substantially improving customer experience.
-  - Launched point-of-sale credit workflows for automotive dealerships, opening new revenue channels and strengthening dealer partnerships.
-  - Migrated legacy microservices to Java 17+ and Spring Boot 3.x, increasing maintainability, performance, and scalability; added unit & integration tests and configured Jenkins builds.
-  - Built and published AI-driven job-search platform. Try it at https://jeeker.one
+  - "Delivered mission-critical biometric integration with the Russian Unified Biometric System (UBS) ahead of schedule, enabling biometric payments, fraud detection, and regulatory compliance."
+  - "Designed and implemented e-signature loan workflows, tripling issuance volume and significantly improving customer experience."
+  - "Launched automotive dealership credit systems, opening new revenue streams and strengthening partnerships."
+  - "Migrated key microservices to Java 17+ and Spring Boot 3.x, improving maintainability, scalability, and performance; introduced automated testing and CI/CD pipelines."
+  - "Built and published Jeeker — an AI-driven job search platform with intelligent vacancy parsing, profile–vacancy matching, and automated cover letter generation. Try it at https://jeeker.one"
 
 core-competencies:
   - Java 17+
