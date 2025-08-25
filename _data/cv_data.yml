@@ -39,7 +39,7 @@ experience:
       started: '12.2023'
       finished:
     company: Alfa-Bank
-    position: Lead Software Engineer
+    position: Senior Software Engineer
     description:
       - Delivered mission-critical biometric functionality to meet new regulations, including two-way integration with the Unified Biometric System (UBS).
       - Implemented upload of biometric data and consumption of vector-based identifiers from UBS.
@@ -68,7 +68,7 @@ experience:
     description:
       - "Maintained and enhanced the company's flagship banking product features."
       - "Implemented a multithreaded market-data receiver for KASE exchange: multicast UDP handling, deduplication and fault tolerance."
-
+#      I took part in maintaining the company's main product, banking software, for various banks worldwide. Modernized it by migrating logic from database procedures to Java microservices. Developed a service for receiving multicast data from the stock exchange, in a multithreading mode from multiple channels, with the exclusion of duplicate messages, control of omissions, and the implementation of other business logic. This allowed clients (banks) to provide an extended range of services
   - period:
       started: '07.2020'
       finished: '09.2021'
@@ -77,7 +77,7 @@ experience:
     description:
       - Developed backend modules for sports federation and election systems.
       - Implemented fuzzy search (vector similarity and trigram) and automated data ingestion with quality checks.
-
+#Developed the backend for a sports federation portal and an application for working with the database of a government electoral system. Implemented full-text search (by vectors) in the PostgreSQL database. Created an approximate search by multiple parameters using the similarity function based on trigrams in the database, with the ability to set arbitrary search accuracy. This simplified data entry by operators about users, user search, and error correction in a large amount of personal data. Additionally, I developed a functionality for mass creation of data records about clients based on uploaded data in text format, after passing quality control that was also done by me
 engineering_experience:
   - period:
       started: '01.2018'
@@ -87,7 +87,8 @@ engineering_experience:
     description:
       - Led engineering projects for power plants, hydro stations, and spaceport systems.
       - Oversaw construction monitoring, compliance, and team coordination
-
+#Monitored construction work and equipment delivery for the industrial infrastructure of the Amur Gas Processing Plant project as an expert.
+#Led a design team of 15 members to develop engineering system design documentation for major projects like Bureyskaya HPP and Vostochny Spaceport.
 education:
   - company: "Amur State University"
     additional: "Faculty of Power Engineering"
