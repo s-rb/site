@@ -14,7 +14,7 @@
       description: Web platform to automate and optimize job searching using AI
 
 - name: Blog Backend Application
-  link: https://blog.surkoff.su
+  link: https://blog.surkoff.com
   image: assets/images/projects/BlogFrontEnd.png
   description: |
     Backend engine for a blogging platform with user registration (secured by email confirmation and CAPTCHA), post 
@@ -23,7 +23,7 @@
     Jakarta Mail, and CAPTCHA with Cage.
   links:
     - name: Try it!
-      link: https://blog.surkoff.su
+      link: https://blog.surkoff.com
       description: Live blogging platform (frontend + backend)
     - name: Code backend
       link: https://github.com/s-rb/blog-engine
@@ -44,7 +44,7 @@
       description: Angular frontend
 
 - name: Japan Cafe
-  link: https://japan-cafe.surkoff.su
+  link: https://japan-cafe.surkoff.com
   image: assets/images/projects/JapanCafe.png
   description: |
     Simple ReactJS-based website created for practicing frontend development. Features a café menu and user 
@@ -52,14 +52,14 @@
     Built with JavaScript, HTML, and CSS.
   links:
     - name: Try it!
-      link: https://japan-cafe.surkoff.su
+      link: https://japan-cafe.surkoff.com
     - name: Try on GitHub
       link: https://s-rb.github.io/japan-cafe/
     - name: Code
       link: https://github.com/s-rb/japan-cafe
 
 - name: Quiz App
-  link: https://quiz.surkoff.su
+  link: https://quiz.surkoff.com
   image: assets/images/projects/Quiz.png
   description: |
     A ReactJS educational quiz app. It fetches questions from the OpenTDB API and calculates quiz results. Designed 
@@ -67,7 +67,7 @@
     Created with JavaScript using create-react-app.
   links:
     - name: Try it!
-      link: https://quiz.surkoff.su
+      link: https://quiz.surkoff.com
     - name: Code
       link: https://github.com/s-rb/react-quiz-app
 
@@ -102,24 +102,24 @@
     Built with TypeScript, ReactJS, HTML, and CSS.
 
 - name: Portfolio Website
-  link: https://surkoff.su
+  link: https://ru.surkoff.com
   image: assets/images/projects/Portfolio.png
   description: |
     Personal portfolio website built with ReactJS and JavaScript. Showcases projects and skills.
   links:
     - name: Try it!
-      link: https://surkoff.su
+      link: https://ru.surkoff.com
     - name: Code
       link: https://github.com/s-rb/portfolio-front
 
 - name: Costs Log
-  link: https://costs-log.surkoff.su/
+  link: https://costs-log.surkoff.com/
   image: assets/images/projects/CostsLog.png
   description: |
     Expense tracking web app with diagram visualization. Built with ReactJS, JavaScript, HTML, and CSS.
   links:
     - name: Try it!
-      link: https://costs-log.surkoff.su/
+      link: https://costs-log.surkoff.com/
     - name: Code
       link: https://github.com/s-rb/react-costs-log-app
 
@@ -153,13 +153,13 @@
       link: https://github.com/s-rb/simple-java-game-catch-the-drop
 
 - name: Task List
-  link: http://tasklist.surkoff.su/
+  link: http://tasklist.surkoff.com/
   image: assets/images/projects/Tasklist_screen.png
   description: |
     A basic React task manager. Users can add and remove tasks in a minimalistic UI. Built with JavaScript, ReactJS, HTML, and CSS.
   links:
     - name: Try it!
-      link: http://tasklist.surkoff.su/
+      link: http://tasklist.surkoff.com/
     - name: Code
       link: https://github.com/s-rb/styling-components-app
 
