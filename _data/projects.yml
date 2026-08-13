@@ -102,13 +102,13 @@
     Built with TypeScript, ReactJS, HTML, and CSS.
 
 - name: Portfolio Website
-  link: https://ru.surkoff.com
+  link: https://surkoff.com
   image: assets/images/projects/Portfolio.png
   description: |
     Personal portfolio website built with ReactJS and JavaScript. Showcases projects and skills.
   links:
     - name: Try it!
-      link: https://ru.surkoff.com
+      link: https://surkoff.com
     - name: Code
       link: https://github.com/s-rb/portfolio-front
 
