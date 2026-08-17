@@ -16,7 +16,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +33,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Обновление данных из внешнего репозитория
+      - name: Update data from s-rb repository
+        if: "!contains(github.event.head_commit.message, '[skip ci]')"
+        run: |
+          # Скачиваем файлы из репозитория s-rb
+          curl -o _data/cv_data.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/cv_data.yml
+          curl -o _data/projects.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/projects.yml
+          curl -o _data/tech-stack.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/tech-stack.yml
+
+          # Проверяем, были ли изменения
+          if git diff --exit-code _data/; then
+            echo "No changes in data files"
+          else
+            echo "Data files changed, committing and pushing"
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _data/*.yml
+            git commit -m "Update data from s-rb repository [skip ci]"
+            git push
+          fi
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
