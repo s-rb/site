@@ -1,5 +1,5 @@
 name: Roman Surkov
-job-title: Senior Java Software Engineer
+job-title: Senior Software Engineer
 
 description:
   - "Backend Java Developer delivering high-performance APIs, scalable microservices, and seamless integrations for fintech, banking, and government systems."
@@ -39,11 +39,11 @@ experience:
       started: '12.2023'
       finished:
     company: AlfaBank
-    position: Senior Software Engineer
+    position: "Lead software engineer"
     description:
       - Delivered mission-critical biometric functionality to meet new regulations, including two-way integration with the Unified Biometric System (UBS).
       - Implemented upload of biometric data and consumption of vector-based identifiers from UBS.
-#      - Parallelized processing pipelines separating vector creation and metadata handling, improving throughput and resilience.
+      #      - Parallelized processing pipelines separating vector creation and metadata handling, improving throughput and resilience.
       - Migrated microservices to Java 17+ and Spring Boot 3.x; added unit & integration tests and configured Jenkins builds.
       - Improved monitoring and incident response through structured logs and dashboards.
       - "Served as Scrum Master: led Agile ceremonies and backlog grooming to increase delivery cadence."
@@ -53,7 +53,7 @@ experience:
       started: '10.2021'
       finished: '12.2023'
     company: It_one
-    position: Senior Software Engineer
+    position: "Senior software engineer"
     description:
       - Launched credit application workflows in dealership points of sale, among the first on the market.
       - Implemented e-signature flows for loan documents, increasing loan issuance threefold.
@@ -64,7 +64,7 @@ experience:
       started: '09.2020'
       finished: '10.2021'
     company: Colvir
-    position: Java Developer
+    position: "Java developer"
     description:
       - "Maintained and enhanced the company's flagship banking product features."
       - "Implemented a multithreaded market-data receiver for KASE exchange: multicast UDP handling, deduplication and fault tolerance."
@@ -93,7 +93,7 @@ education:
   - company: "Amur State University"
     additional: "Faculty of Power Engineering"
     qualification: "Specialist Degree – Engineering of Power Plants"
-    date_start:
+    date_start: #08.2024
     date_end:
     period: 5y
   - company: "Skillbox"
