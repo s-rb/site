@@ -39,17 +39,28 @@ jobs:
       # Обновление данных из внешнего репозитория
       - name: Update data from s-rb repository
         if: "!contains(github.event.head_commit.message, '[skip ci]')"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Скачиваем файлы из репозитория s-rb
-          curl -o _data/cv_data.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/cv_data.yml
-          curl -o _data/projects.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/projects.yml
-          curl -o _data/tech-stack.yml https://raw.githubusercontent.com/s-rb/s-rb/main/_data/tech-stack.yml
+          mkdir -p _data
+          for file in cv_data.yml projects.yml tech-stack.yml; do
+            echo "Downloading $file..."
+            status=$(curl -s -w "%{http_code}" \
+              -H "Authorization: token $GH_TOKEN" \
+              -H "Accept: application/vnd.github.v3.raw" \
+              -L "https://api.github.com/repos/s-rb/s-rb/contents/_data/$file" \
+              -o "_data/$file")
+            if [ "$status" -ne 200 ]; then
+              echo "❌ Failed to download $file, status: $status"
+              exit 1
+            fi
+            sleep 1
+          done
 
-          # Проверяем, были ли изменения
           if git diff --exit-code _data/; then
-            echo "No changes in data files"
+            echo "✅ No changes in data files"
           else
-            echo "Data files changed, committing and pushing"
+            echo "🔄 Data files changed, committing and pushing"
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add _data/*.yml
@@ -66,11 +77,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
